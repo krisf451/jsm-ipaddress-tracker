@@ -1,9 +1,12 @@
 import "../styles/globals.css";
+import { GlobalProvider } from "@context/GlobalContext";
 
 function MyApp({ Component, pageProps }) {
   return (
-    <div className="min-h-screen overflow-x-hidden bg-gray-100 max-w-7xl mx-auto">
-      <Component {...pageProps} />
+    <div className="min-h-screen">
+      <GlobalProvider>
+        <Component {...pageProps} />
+      </GlobalProvider>
     </div>
   );
 }
