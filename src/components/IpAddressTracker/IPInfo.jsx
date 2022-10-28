@@ -24,7 +24,7 @@ const IPInfo = () => {
   return (
     <>
       {/* Mobile */}
-      <div className="lg:hidden gap-4 w-[279px] xs:w-[327px] h-[294px] md:h-[400px] bg-white shadow-lg absolute bottom-[-150px] md:bottom-[-263px] rounded-lg py-6 flex flex-col items-center justify-between transition-all duration-200 ease-in-out">
+      <div className="lg:hidden gap-4 w-[279px] xs:w-[327px] h-[294px] md:h-[400px] bg-white shadow-lg absolute bottom-[-180px] md:bottom-[-286px] rounded-lg py-6 flex flex-col items-center justify-between transition-all duration-200 ease-in-out">
         <div className="text-center">
           <p className="text-gray-400 text-[10px] md:text-[12px] font-[700] uppercase tracking-[.15em] mb-2">ip address</p>
           <p className="text-[20px] md:text-[26px] font-[500]">{ipAddress}</p>
